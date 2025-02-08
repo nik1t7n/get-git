@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "get-git"
+version = "0.1.0"
+description = "Welcome to Get-Git – your new best friend for managing GitHub repositories effortlessly!"
+authors = ["Nik1t7n <20nik.nosov21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = "^13.9.4"
+httpx = "^0.28.1"
+requests = "^2.32.3"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
