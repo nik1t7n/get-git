@@ -21,13 +21,13 @@
 
 Once upon a time in the wild world of GitHub, developers were plagued by the monotonous task of managing repositories manually. Deleting an old repo, transferring one to a new account, or even checking for duplicates was a journey fraught with frustration and errors. 😩
 
-In a quest to reclaim lost time and sanity, the **GitHub Assistant** was born. This command-line wizard automates the mundane and brings a touch of magic to repository management. With asynchronous powers, interactive prompts, and colorful console outputs courtesy of the `rich` library, say goodbye to manual drudgery and hello to a streamlined workflow! 🎉
+In a quest to reclaim lost time and sanity, the **Get Git** was born. This command-line wizard automates the mundane and brings a touch of magic to repository management. With asynchronous powers, interactive prompts, and colorful console outputs courtesy of the `rich` library, say goodbye to manual drudgery and hello to a streamlined workflow! 🎉
 
 ---
 
 ## Features
 
-The GitHub Assistant is packed with superpowers to handle your repository woes:
+The Get Git is packed with superpowers to handle your repository woes:
 
 - **View Repositories**  
   Quickly fetch and filter your repositories (all, owned, or collaborated) and display them in vibrant tables. 🌈
@@ -52,8 +52,8 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/github-assistant.git
-   cd github-assistant
+   git clone https://github.com/nik1t7n/get-git.git
+   cd get-git
    ```
 
 2. **Install Poetry (if you haven't already):**
@@ -122,7 +122,7 @@ Choose an action: 1
 
 ## How It Works
 
-Under the hood, the GitHub Assistant employs a combination of modern Python technologies:
+Under the hood, the Get Git employs a combination of modern Python technologies:
 
 - **Asynchronous Magic:**  
   Using `asyncio` and `httpx`, all network operations are performed asynchronously to keep the tool lightning-fast and responsive. ⚡
@@ -172,7 +172,7 @@ For any other issues, please open an issue on the GitHub repository. We love bug
 
 ## Contributing
 
-We welcome contributions to make the GitHub Assistant even more awesome! To contribute:
+We welcome contributions to make the Get Git even more awesome! To contribute:
 
 1. **Fork the Repository**
 2. **Create a New Branch:**  
